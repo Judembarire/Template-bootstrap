@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+<h2>student list</h2>
+<table>
+
+  <thead>
+    <tr>
+        <td>name</td>
+         <td>age</td>
+         <td>location</td>
+    </tr>
+  </thead>
+    {% for kk in pupil %}
+    <tr>
+         <td>{{ kk.name }}</td>
+         <td>{{ kk.age }}</td>
+         <td>{{ kk.location }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+
+</body>
+</html>
